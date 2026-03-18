@@ -1,31 +1,37 @@
 <!doctype html>
 <html lang="en">
   <head>
-    <meta cahrset="UTF-8" />
+    <meta charset="UTF-8" />
     <title>Kenny Lam</title>
     <link rel="stylesheet" href="style.css" />
   </head>
 
   <body>
+    <nav>
+      <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#education">Education</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
     <header>
       <img src="kenny.jpg" alt="Kenny Lam" />
       <h1>Kenny Lam</h1>
       <p>Software Developer</p>
     </header>
     <main>
-      <section>
+      <section id="about" class="fade-in">
         <h2>About me</h2>
         <p>I am passionate....</p>
       </section>
-      <section>
+      <section id="skills" class="fade-in">
         <h2>Skills</h2>
-        <ul>
-          <li>Python</li>
-          <li>JavaScript</li>
-          <li>HTML & CSS</li>
-        </ul>
+        <div id="skills-container"></div>
       </section>
-      <section>
+      <section id="experience" class="fade-in">
         <h2>My experience</h2>
         <div>
           <h3>Technical Support at Sony</h3>
@@ -42,14 +48,14 @@
           </ul>
         </div>
       </section>
-      <section>
+      <section id="education" class="fade-in">
         <h2>Education</h2>
         <div>
           <h3>Bachelors in Computer Science Engineering</h3>
           <p>Lund University, Faculty of Engineering - 2021-2024</p>
         </div>
       </section>
-      <section>
+      <section id="projects" class="fade-in">
         <h2>Projects</h2>
         <div>
           <h3>Project Name</h3>
@@ -57,36 +63,30 @@
           <a href="#" target="_blank"> View</a>
         </div>
       </section>
-      <section>
+      <section id="contact">
         <h2>Contact</h2>
         <p>
-          Email: <a href="Kenny_lam5@hotmail.com">Kenny_lam5@hotmail.com</a>
+          <a href="mailto:Kenny_lam5@hotmail.com">Kenny_lam5@hotmail.com </a> ·
+          <a href="tel:+46739140512">+46739140512 </a>
         </p>
+
         <p>
-          Github:
-          <a href="https://github.com/kennylam123" target="_blank">
-            Github.com/kennylam123</a
-          >
-        </p>
-        <p>
-          LinkedIn
+          <a href="https://github.com/kennylam123" target="_blank"> Github</a> ·
           <a
             href="https://www.linkedin.com/in/kenny-lam-41b910270"
             target="_blank"
+            >Linkedin</a
           >
-            Linkedin.com/in/kenny-lam-41b910270</a
+          ·
+          <a href="https://www.leetcode.com/u/mrspokolo" target="_blank"
+            >Leetcode</a
           >
-        </p>
-        <p>
-          Leetcode
-          <a href="https://www.leetcode.com/u/mrspokolo" target="_blank">
-            Leetcode.com/u/mrspokolo
-          </a>
         </p>
       </section>
     </main>
     <footer>
       <p>© 2026 Kenny Lam</p>
     </footer>
+    <script src="script.js"></script>
   </body>
 </html>
